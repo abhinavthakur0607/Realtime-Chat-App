@@ -1,54 +1,50 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
+# Real-Time Chat App Project
 
+## Table of Contents
 
-![login page](./images/snappy_login.png)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-![home page](./images/snappy.png)
+---
 
-## Installation Guide
+## Introduction
 
-### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
+Welcome to the Real-Time Chat App project! This is a simple yet powerful real-time chat application that allows users to communicate with each other in real-time. Whether you want to chat with friends, colleagues, or connect with people around the world, our chat app has got you covered.
 
-Both should be installed and make sure mongodb is running.
+This README file provides essential information about the project, including how to set it up, use it, and contribute to its development.
 
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
+---
 
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
+## Features
 
-For Frontend.
-```shell
-cd public
-yarn start
-```
-For Backend.
+- Real-time messaging: Instantly send and receive messages with low latency.
+- User authentication: Securely log in and authenticate users to protect their privacy.
+- Multiple chat rooms: Create and join various chat rooms for different topics or groups.
+- Online status: See who's online and available for chat.
+- Message history: View chat history to catch up on previous conversations.
+- Emoji support: Express yourself with a wide range of emojis.
+- Notifications: Receive notifications for new messages even when the app is in the background.
+- User-friendly interface: A clean and intuitive design for a seamless user experience.
 
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd server
-yarn start
-```
+---
 
-Done! Now open localhost:3000 in your browser.
+## Technologies Used
+
+- **Frontend:**
+  - React.js: A JavaScript library for building user interfaces.
+  - Redux: A state management library for handling application data.
+  - WebSocket: A real-time communication protocol for instant messaging.
+  - CSS/Sass: Styling and design.
+  - Axios: For making HTTP requests to the backend.
+
+- **Backend:**
+  - Node.js: A JavaScript runtime environment.
+  - Express.js: A web application framework for Node.js.
+  - Socket.io: A library for real-time, bidirectional communication.
+  - MongoDB: A NoSQL database for storing chat messages and user data.
+  - JWT (JSON Web Tokens): For user authentication and authorization.
